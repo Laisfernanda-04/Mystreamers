@@ -1,0 +1,71 @@
+body {
+    color: white;
+    background: #b91c72;
+    margin: 20px;
+    font-family: "Playfair Display", serif;
+    margin-bottom: 100px;
+    padding: 30px;
+}
+
+
+header {
+    border-bottom: solid 3px white;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    font-size: 32px;
+    color: white;
+    font-weight: bolder;
+}
+
+
+.chamada {
+    background: #b91c72;
+    padding-bottom: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.chamada-texto {
+    margin-right: 5%;
+
+}
+
+h1 {
+    font-size: 40px;
+
+}
+
+h2{
+    text-decoration: underline;
+    font-weight: lighter;
+}
+
+P {
+    font-size: 20px;
+}
+
+.video-destaque {
+    margin-top: 20px;
+}
+
+
+.categorias-videos {
+    display: flex;
+    overflow-x: auto;
+    gap: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 20px;
+}
+
+
+.categorias-videos iframe {
+    opacity: 0.85;
+    height: 170px;
+}
+
+.categorias-videos iframe:hover {
+    opacity: 1.0;
+    border: 1px solid white
+}
